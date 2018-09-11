@@ -1,0 +1,32 @@
+{
+
+  "manifest_version": 2,
+  "name": "FoodSoft-Filter",
+  "version": "0.1",
+
+  "description": "Adds buttons to handle order list in Foodsoft.",
+
+  "icons": {
+    "48": "FoodsoftFilter.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://app.foodcoops.net/*"],
+      "js": ["main.js"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    "scripts.js",
+    "buttons.css",
+    "Bestellung.html",
+    "Bestellverwaltung.html"
+  ]
+
+}
