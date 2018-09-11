@@ -4,7 +4,7 @@
   "name": "FoodSoft-Filter",
   "version": "0.1",
 
-  "description": "Adds buttons to handle order list in Foodsoft.",
+  "description": "Adds some nice scripts to handle a large order list in Foodsoft.",
 
   "icons": {
     "48": "FoodsoftFilter.png"
