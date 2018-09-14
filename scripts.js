@@ -1,27 +1,20 @@
-function switchKategorieAnsicht(checkboxElem) {
+/* Switching functions */
+function switchCategoryView(checkboxElem) {
     onlyOne(checkboxElem)
     switchReset();
     if (checkboxElem.checked) {
-        KategorieAnsichtOn();
+        CategoryViewOn();
     }
 }
-function switchWasWirdSchonBestellt(checkboxElem) {
+function switchAlreadyOrdered(checkboxElem) {
     onlyOne(checkboxElem)
     switchReset();
     if (checkboxElem.checked) {
-        WasWirdSchonBestelltOn();
+        AlreadyOrderedOn();
     }
 }
-//function switchBestellverwaltungAufraeumen(checkboxElem) {
-//    onlyOne(checkboxElem)
-//    if (checkboxElem.checked) {
-//        BestellverwaltungAufraeumenOn();
-//    } else {
-//        BestellverwaltungAufraeumenOff();
-//    }
-//}
 
-
+/* Deactive all other checkboxes when one gets checked */
 function onlyOne(checkbox) {
     var checkboxes = document.getElementsByClassName('switch-input')
     for (i = 0; i < checkboxes.length; i++) {
@@ -29,6 +22,7 @@ function onlyOne(checkbox) {
     }
 }
 
+/* Reset Orderlist */
 function switchReset() {
     /* show all */
     table = document.getElementsByClassName('table-hover');
@@ -50,13 +44,12 @@ function switchReset() {
         if (row.className == 'list-heading article-category') {
             row.onclick = "";
             row.removeAttribute('hide');
-//            row.removeAttribute('onmouseover');
             row.setAttribute('onmouseover', 'this.style.cursor="default"')
         }
     }
 }
 
-/* Kategorie-Ansicht */
+/* Categorie View */
 function openCat() {
     table = document.getElementsByClassName('table-hover');
     rows = table[0].getElementsByTagName('tr');
@@ -64,7 +57,7 @@ function openCat() {
     for (i = 1; i < rows.length; i++) {
         row = rows[i];
         if (row == this) {
-            if (eval(this.getAttribute('hide'))) {
+            if (this.getAttribute('hide') == 'true') {
                 disp = 'table-row';
                 row.setAttribute('hide', false);
             } else {
@@ -81,7 +74,7 @@ function openCat() {
     }
     this.scrollIntoView(true);
 }
-function KategorieAnsichtOn() {
+function CategoryViewOn() {
     table = document.getElementsByClassName('table-hover');
     rows = table[0].getElementsByTagName('tr');
     for (i = 1; i < rows.length; i++) {
@@ -95,21 +88,9 @@ function KategorieAnsichtOn() {
         }
     }
 }
-//function KategorieAnsichtOff() {
-//    table = document.getElementsByClassName('table-hover');
-//    rows = table[0].getElementsByTagName('tr');
-//    for (i = 1; i < rows.length; i++) {
-//        row = rows[i];
-//        row.style.display = 'table-row';
-//        row.setAttribute('onmouseover', 'this.style.cursor="default"')
-//    }
-//}
 
-
-
-/* Was wird schon bestellt */
-function WasWirdSchonBestelltOn() {
-    Bestellung_hidden_rows = [];
+/* What is already ordered? */
+function AlreadyOrderedOn() {
     table = document.getElementsByClassName('table-hover');
     rows = table[0].getElementsByTagName('tr');
     for (i = 2; i < rows.length; i++) {
@@ -121,7 +102,6 @@ function WasWirdSchonBestelltOn() {
             menge = parseInt(divs[2].innerHTML) + parseInt(divs[3].innerHTML);
             if (menge == 0) {
                 row.style.display = 'none';
-                Bestellung_hidden_rows.push(row);
             }
             else {
                 row.style.display = 'table-row';
@@ -129,18 +109,9 @@ function WasWirdSchonBestelltOn() {
         }
     }
 }
-//function WasWirdSchonBestelltOff() {
-//    if (typeof(window['Bestellung_hidden_rows']) == "object") {
-//        for (i = 0; i < Bestellung_hidden_rows.length; i++) {
-//            Bestellung_hidden_rows[i].style.display = 'table-row';
-//        }
-//    }
-//}
 
-
-
-/* Bestellverwaltung aufraeumen */
-//function BestellverwaltungAufraeumenOn() {
+/* Clean Order overivew */
+//function CleanOrderOverviewOn() {
 //    Buebersicht_hidden_rows = [];
 //    Buebersicht_hidden = true;
 //    articlesection = document.getElementById('articles_table');
@@ -157,7 +128,7 @@ function WasWirdSchonBestelltOn() {
 //        }
 //    }
 //}
-//function BestellverwaltungAufraeumenOn() {
+//function CleanOrderOverviewOn() {
 //    if (typeof(window['Buebersicht_hidden_rows']) == "object") {
 //        for (i = 0; i < Buebersicht_hidden_rows.length; i++) {
 //            Buebersicht_hidden_rows[i].style.display = 'table-row';

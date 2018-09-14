@@ -9,18 +9,18 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="33.152843mm"
-   height="11.534532mm"
-   viewBox="0 0 33.152843 11.534532"
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
    version="1.1"
-   id="svg8"
+   id="svg843"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="FoodSoftFilter.svg"
-   inkscape:export-filename="/run/media/blub/DataIntern/Projekte/FoodCoop/JavascriptAusblender/Extension/FoodSoftFilter.png"
-   inkscape:export-xdpi="299"
-   inkscape:export-ydpi="299">
+   sodipodi:docname="FoodsoftFilter.svg"
+   inkscape:export-filename="/run/media/blub/DataIntern/Projekte/FoodCoop/JavascriptAusblender/FoodsoftFilter/FoodsoftFilter.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
-     id="defs2" />
+     id="defs837" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -28,23 +28,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4597888"
-     inkscape:cx="57.556019"
-     inkscape:cy="-61.184858"
+     inkscape:zoom="3.5963009"
+     inkscape:cx="1.8411847"
+     inkscape:cy="57.194042"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1002"
+     units="px"
+     inkscape:window-width="1920"
      inkscape:window-height="1103"
-     inkscape:window-x="918"
+     inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="0"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
+     inkscape:window-maximized="1" />
   <metadata
-     id="metadata5">
+     id="metadata840">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -59,35 +56,30 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-30.370493,-87.071526)">
-    <rect
-       style="opacity:1;fill:#42a142;fill-opacity:1;stroke-width:0.24203539"
-       id="rect10"
-       width="11.153819"
-       height="11.534532"
-       x="30.370493"
-       y="87.071526" />
+     transform="translate(0,-284.29998)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:11.28888893px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="32.296688"
-       y="96.881958"
-       id="text14"><tspan
+       style="font-style:normal;font-weight:normal;font-size:4.92064142px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30754009px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="0.25274286"
+       y="186.1756"
+       id="text1437"
+       transform="scale(0.64113874,1.5597248)"><tspan
          sodipodi:role="line"
-         id="tspan12"
-         x="32.296688"
-         y="96.881958"
-         style="fill:#ffffff;stroke-width:0.26458332px">fs</tspan></text>
+         id="tspan1435"
+         x="0.25274286"
+         y="186.1756"
+         style="stroke-width:0.30754009px">Foodsoft</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:11.28888893px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#42a142;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="42.036964"
-       y="96.881958"
-       id="text18"><tspan
+       style="font-style:normal;font-weight:normal;font-size:6.53693676px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40855855px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-0.042139854"
+       y="252.55501"
+       id="text1441"
+       transform="scale(0.85173517,1.1740739)"><tspan
          sodipodi:role="line"
-         id="tspan16"
-         x="42.036964"
-         y="96.881958"
-         style="fill:#42a142;stroke-width:0.26458332px;fill-opacity:1;">filter</tspan></text>
+         id="tspan1439"
+         x="-0.042139854"
+         y="252.55501"
+         style="stroke-width:0.40855855px">Filter</tspan></text>
   </g>
 </svg>
