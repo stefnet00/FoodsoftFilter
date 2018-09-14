@@ -6,7 +6,9 @@ This is the code for a Firefox extension.
 ## Descriptions ##
 The scripts could be easily implemented in the Foodsoft itself but I'm not able to do it. But feel free if you like to.
 
+
 *Links*
+
 Foodsoft: https://foodcoops.github.io/
 
 Github: https://github.com/stefnet00/FoodsoftFilter
